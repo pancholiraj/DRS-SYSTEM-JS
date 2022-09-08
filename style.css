@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: black;
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-color: white;
+  padding: 12px;
+  border-radius: 12px;
+  width: 60%;
+}
+.main .display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.main .display .displayVidImg {
+  width: 100%;
+}
+.buttons {
+  background-color: rgb(77, 146, 13);
+}
+
+.buttons .buttonGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonGroup .btn {
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 12px;
+}
